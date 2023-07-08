@@ -26,7 +26,7 @@
 .main-part{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(71, 90, 90);
+    background-color: rgb(178, 209, 209);
     padding: 30px 30px;
     
 
@@ -42,8 +42,13 @@
 .skill-description{
     font-size: 30px;
 }
+
+/*second-part*/
+
 .second-part{
     text-align: center;
+    justify-content: space-between;
+    background-color: rgb(198, 204, 204);
 }
 .sec{
     font-size: 40px;
@@ -54,7 +59,32 @@
 .second-part{
     display: flex;
     align-items: center;
+    }
+
+    .next-h{
+        font-size: 40px;
     
-  
-    
+    }
+    .plans{
+        text-decoration: underline;
+    }
+
+.back-photo{
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+ 
+
+}
+
+.middle-text{
+    padding-left: 180px;
+    padding-top: 180px;
+    font-size: 40px;
+    color: rgb(246, 253, 249);
+    font-family: Work Sans;
+    border-radius: 8px;
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+
 }
