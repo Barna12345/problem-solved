@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-text{
+   width: 500px;
+   
+
+}
+.banner-tittle{
+    font-size: 45px;
+
+}
+.banner-des{
+    font-size: 20px;
+}
+.banner{
+    background-image: url('../images/banner1.png');
+   background-size: cover;
+   height: 650px;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+
+}
+.main-part{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(71, 90, 90);
+    padding: 30px 30px;
+    
+
+}
+.plans{
+    text-align: center;
+    font-size: 60px;
+    
+}
+.skill-tittle{
+    font-size: 40px;
+}
+.skill-description{
+    font-size: 30px;
+}
+.second-part{
+    text-align: center;
+}
+.sec{
+    font-size: 40px;
+}
+.pe{
+    font-size: 20px;
+}
+.second-part{
+    display: flex;
+    align-items: center;
+    
+  
+    
+}
